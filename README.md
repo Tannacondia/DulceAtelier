@@ -1,4 +1,4 @@
-Dulce Atelier
+## Dulce Atelier
 
 Sitio de presentación para una pastelería artesanal ficticia, con catálogo de productos y carrito de compras. Su estilo combina tonos cálidos, tipografía serif y fotografías de repostería.
 

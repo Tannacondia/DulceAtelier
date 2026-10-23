@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fbf7f2">
+    <meta name="description" content="Dulce Atelier: pastelería artesanal, tortas y momentos dulces hechos con amor en Buenos Aires.">
+    <title>Dulce Atelier — Pastelería artesanal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Ir al contenido</a>
+    <header class="site-header" id="inicio">
+      <div class="container header-inner">
+        <a class="brand" href="#inicio" aria-label="Dulce Atelier, inicio">
+          <span class="brand-mark" aria-hidden="true">d<span>.</span></span>
+          <span class="brand-name">dulce <strong>atelier</strong></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú">
+          <span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
+          <a href="#nosotros">Nuestra historia</a>
+          <a href="#productos">La vitrina</a>
+          <a href="#momentos">Momentos</a>
+          <a class="nav-cta" href="#contacto">Hacé tu pedido <span aria-hidden="true">↗</span></a>
+          <button class="cart-trigger" type="button" aria-label="Abrir carrito, 0 productos" aria-controls="cart-drawer"><span aria-hidden="true">♡</span> Carrito <span class="cart-count" id="cart-count">0</span></button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="hero section-pad">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> Pastelería artesanal · Buenos Aires</p>
+            <h1>Un poquito de<br><em>dulzura</em> cambia<br>todo.</h1>
+            <p class="hero-text">Creamos pasteles y momentos para compartir. Hechos a mano, con ingredientes nobles y mucho amor.</p>
+            <div class="hero-actions">
+              <a class="button button-dark" href="#productos">Descubrí la vitrina <span aria-hidden="true">↗</span></a>
+              <a class="text-link" href="#nosotros">Conocé nuestra historia <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="hero-note"><span class="note-stars" aria-hidden="true">★★★★★</span><span>Pequeños detalles,<br>grandes momentos.</span></div>
+          </div>
+          <div class="hero-visual">
+            <img class="hero-image" src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1200&q=85" alt="Torta artesanal decorada con frutas y crema" fetchpriority="high">
+            <div class="hero-stamp" aria-label="Hecho con amor"><span>HECHO CON</span><strong>♡</strong><span>AMOR</span></div>
+            <div class="image-caption"><span>01 / 04</span><span>Una pausa para disfrutar</span></div>
+          </div>
+          <a class="scroll-cue" href="#nosotros" aria-label="Desplazarse a nuestra historia"><span></span> DESLIZÁ PARA DESCUBRIR</a>
+        </div>
+      </section>
+
+      <section class="intro section-pad" id="nosotros">
+        <div class="container intro-grid">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Un atelier con alma</p>
+          <div class="intro-copy">
+            <h2>Creemos que los días comunes también merecen <em>algo especial.</em></h2>
+            <div class="intro-bottom"><p>En nuestro pequeño atelier, cada receta nace de la curiosidad y se termina con las manos. Elegimos ingredientes de estación y hacemos todo en tandas pequeñas, para que cada bocado se sienta único.</p><a class="round-link" href="#contacto" aria-label="Conocé más y contactanos">↗</a></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="products section-pad" id="productos">
+        <div class="container">
+          <div class="section-heading"><div><p class="eyebrow"><span class="eyebrow-line"></span> Recién salido del horno</p><h2>La vitrina <em>dulce</em></h2></div><a class="text-link desktop-link" href="#contacto">Ver opciones para tu evento <span aria-hidden="true">↗</span></a></div>
+          <p class="catalog-intro">Elegí tus favoritos y armá un pedido para compartir.</p>
+          <div class="product-grid catalog-grid">
+            <article class="product-card" data-product-id="torta-frutos"><a class="product-image" href="#contacto" aria-label="Torta de frutos rojos"><img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=900&q=82" alt="Torta de estación con frutos rojos" loading="lazy"><span class="product-number">01</span></a><div class="product-meta"><h3>Torta de frutos rojos</h3><p>Para 8 porciones</p></div><div class="product-buy"><span class="product-price" data-price="28500">$ 28.500</span><button class="add-to-cart" type="button" data-add="torta-frutos">Agregar <span aria-hidden="true">＋</span></button></div></article>
+            <article class="product-card" data-product-id="cheesecake"><a class="product-image" href="#contacto" aria-label="Cheesecake de vainilla"><img src="https://images.unsplash.com/photo-1524351199678-941a58a3df50?auto=format&fit=crop&w=900&q=82" alt="Cheesecake artesanal" loading="lazy"><span class="product-number">02</span></a><div class="product-meta"><h3>Cheesecake de vainilla</h3><p>Con frutos de estación</p></div><div class="product-buy"><span class="product-price" data-price="26000">$ 26.000</span><button class="add-to-cart" type="button" data-add="cheesecake">Agregar <span aria-hidden="true">＋</span></button></div></article>
+            <article class="product-card" data-product-id="box-mini"><a class="product-image" href="#contacto" aria-label="Box de mini pastelería"><img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=82" alt="Postres individuales con crema y frutas" loading="lazy"><span class="product-number">03</span></a><div class="product-meta"><h3>Box mini pastelería</h3><p>6 bocados surtidos</p></div><div class="product-buy"><span class="product-price" data-price="18500">$ 18.500</span><button class="add-to-cart" type="button" data-add="box-mini">Agregar <span aria-hidden="true">＋</span></button></div></article>
+            <article class="product-card" data-product-id="brownies"><a class="product-image" href="#contacto" aria-label="Brownies de chocolate"><img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=900&q=82" alt="Bocados de chocolate artesanal" loading="lazy"><span class="product-number">04</span></a><div class="product-meta"><h3>Brownies de chocolate</h3><p>Pack de 4 unidades</p></div><div class="product-buy"><span class="product-price" data-price="9500">$ 9.500</span><button class="add-to-cart" type="button" data-add="brownies">Agregar <span aria-hidden="true">＋</span></button></div></article>
+            <article class="product-card" data-product-id="lemon-pie"><a class="product-image" href="#contacto" aria-label="Lemon pie"><img src="https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&w=900&q=82" alt="Tarta de limón artesanal" loading="lazy"><span class="product-number">05</span></a><div class="product-meta"><h3>Lemon pie</h3><p>Para 6 porciones</p></div><div class="product-buy"><span class="product-price" data-price="22000">$ 22.000</span><button class="add-to-cart" type="button" data-add="lemon-pie">Agregar <span aria-hidden="true">＋</span></button></div></article>
+            <article class="product-card" data-product-id="cookies"><a class="product-image" href="#contacto" aria-label="Cookies de chocolate"><img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=82" alt="Cookies de chocolate recién horneadas" loading="lazy"><span class="product-number">06</span></a><div class="product-meta"><h3>Cookies de chocolate</h3><p>Pack de 6 unidades</p></div><div class="product-buy"><span class="product-price" data-price="8500">$ 8.500</span><button class="add-to-cart" type="button" data-add="cookies">Agregar <span aria-hidden="true">＋</span></button></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote-band" id="momentos"><div class="container quote-inner"><span class="quote-mark" aria-hidden="true">“</span><blockquote>Lo más lindo de una receta es <em>con quién la compartís.</em></blockquote><p>DULCE ATELIER · DESDE 2018</p></div></section>
+
+      <section class="contact section-pad" id="contacto">
+        <div class="container contact-grid">
+          <div class="contact-copy"><p class="eyebrow"><span class="eyebrow-line"></span> Estamos para endulzarte el día</p><h2>¿Qué celebramos <em>hoy?</em></h2><p>Contanos qué tenés en mente y armamos algo rico para vos.</p>
+            <div class="contact-details"><div><span class="detail-label">ENCONTRANOS</span><p>Palermo, Buenos Aires<br>Mar a sáb · 10 a 19 h</p></div><div><span class="detail-label">ESCRIBINOS</span><p><a class="whatsapp-contact" href="#" target="_blank" rel="noreferrer">WhatsApp ↗</a><br><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram ↗</a></p></div></div>
+          </div>
+          <form class="contact-form" id="contact-form" novalidate>
+            <label for="nombre">Tu nombre</label><input id="nombre" name="nombre" type="text" placeholder="¿Cómo te llamás?" autocomplete="name" required>
+            <label for="email">Tu email</label><input id="email" name="email" type="email" placeholder="hola@ejemplo.com" autocomplete="email" required>
+            <label for="mensaje">Contanos tu idea</label><textarea id="mensaje" name="mensaje" rows="3" placeholder="Una torta para un cumple, una box sorpresa..." required></textarea>
+            <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+            <button class="button button-dark form-submit" type="submit">Enviar consulta <span aria-hidden="true">↗</span></button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <button class="cart-backdrop" id="cart-backdrop" type="button" aria-label="Cerrar carrito" hidden></button>
+    <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" aria-hidden="true" inert>
+      <div class="cart-header"><div><p class="eyebrow">Tu selección</p><h2 id="cart-title">Mi carrito <span id="cart-title-count">(0)</span></h2></div><button class="cart-close" id="cart-close" type="button" aria-label="Cerrar carrito">×</button></div>
+      <div class="cart-items" id="cart-items"></div>
+      <div class="cart-empty" id="cart-empty"><span aria-hidden="true">♡</span><p>Tu carrito está esperando<br>algo rico.</p><button class="text-link" id="continue-shopping" type="button">Seguir mirando <span aria-hidden="true">↗</span></button></div>
+      <div class="cart-footer" id="cart-footer" hidden><div class="cart-subtotal"><span>Subtotal</span><strong id="cart-subtotal">$ 0</strong></div><p>El envío se coordina al confirmar el pedido.</p><a class="button button-dark checkout-button" id="checkout-button" href="#" target="_blank" rel="noreferrer">Pedir por WhatsApp <span aria-hidden="true">↗</span></a></div>
+    </aside>
+
+    <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">d<span>.</span></span><span class="brand-name">dulce <strong>atelier</strong></span></a><p>Hecho a mano en Buenos Aires, con amor y manteca.</p><span class="copyright">© <span id="year">2026</span> Dulce Atelier</span></div></footer>
+  </body>
+</html>
